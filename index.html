@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docter Appoinment Booking</title>
+    <link rel="shortcut icon" href="./Assets/Image/logo.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav-head">
+        <nav class="navbar">
+            <ul id="ul-container">
+                <li class="li all"><a href="#home">Home</a></li>
+                <li class="li all"><a href="#about">About</a></li>
+                <li class="li all"><a href="#timeline">Timeline</a></li>
+                <h1 class="h1 all">Medic Care<br><span>Health Specialist</span></h1>
+                <li class="li all"><a href="#testimonials">Testmonials</a></li>
+                <li class="li all"><a href="#booking">Booking</a></li>
+                <li class="li all"><a href="#contact">Contact</a></li>
+                <li class="menu" onclick=showSidebar()><a class="a" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(97, 96, 96);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></a></li>
+            </ul>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" style="fill: rgb(97, 96, 96);transform: ;msFilter:;"><path d="M19.002 3h-14c-1.103 0-2 .897-2 2v4h2V5h14v14h-14v-4h-2v4c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5c0-1.103-.898-2-2-2z"></path><path d="m11 16 5-4-5-4v3.001H3v2h8z"></path></svg></a></li>
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#testimonials">Testmonials</a></li>
+              <li><a href="#booking">Booking</a></li>
+              <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div id="main-content">
+                <div class="wrap-content">
+                <div class="wrapper">
+                <p class="p">Better</p>
+                <div class="words">
+                    <span class="span">Health</span>
+                    <span class="span">Lives</span>
+                    <span class="span">Days</span>
+                </div>
+                </div>
+                </div>
+                <p class="p1">Doctors are healthcare professionals who diagnose, treat, and prevent illnesses and injuries. They play a crucial role in maintaining the health and well-being of individuals by providing medical care, conducting examinations, prescribing treatments, and advising on healthy living.</p>
+                <button class="btn">Learn More</button> 
+                <span class="icon"><ion-icon class="ion" name="phone-portrait-outline"></ion-icon> 010-020-0340</span>     
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets/Image/img1.jpeg" class="d-block w-100" alt="img1">
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/Image/img2.jpg" class="d-block w-100" alt="img2">
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/Image/img3.jpg" class="d-block w-100"  alt="img3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <section id="about">
+      <div class="about-head">
+        <div class="about-content">
+          <h1 class="h1">Meet Dr. Carson</h1>
+          <p class="p">Protect yourself and others by wearing masks and washing hands frequently. Outdoor is safer than indoor for gatherings or holding events. People who get sick with Coronavirus disease (COVID-19) will experience mild to moderate symptoms and recover without special treatments.</p>
+          <p class="p">Healthy habits are essential for maintaining overall well-being and leading a balanced life. They can positively impact both your physical and mental health.</p>
+        </div>
+        <div class="about-data">
+          <h1 class="h1"><span>12</span>Years <br> of Experiences</h1>
+        </div>
+      </div>
+      <div class="about-img">
+         <img src="./Assets/Image/img4.jpg" alt="img4">
+         <img src="./Assets/Image/img5.webp" alt="img5">
+      </div>
+    </section>
+    <section id="timeline">
+      <h2 class="heading">Our Timeline</h2>
+      <ul>
+        <li>
+          <ion-icon class="icon" name="checkmark-circle-outline"></ion-icon>
+          <div class="box">
+          <h3 class="title">Get the vaccine</h3>
+          <p>Getting vaccinated is one of the most important steps you can take to protect yourself and others from preventable diseases. </p>
+          </div>
+        </li>
+        <li>
+          <ion-icon class="icon" name="book-outline"></ion-icon>
+          <div class="box">
+          <h3 class="title">Consulting your health</h3>
+          <p>Consulting your health involves actively seeking professional advice and information to maintain or improve it's important to reach out to healthcare professionals who can provide guidance based on your personal needs.  </p>
+          </div>
+        </li>
+        <li>
+          <ion-icon class="icon" name="clipboard-outline"></ion-icon>
+          <div class="box">
+          <h3 class="title">Certified Nurses</h3>
+          <p>Certified nurses are healthcare professionals who have obtained advanced credentials or certifications beyond their basic nursing education. These certifications typically demonstrate specialized knowledge, skills, and experience in a specific area of nursing practice.  </p>
+          </div>
+        </li>
+        <li>
+          <ion-icon class="icon" name="globe-outline"></ion-icon>
+          <div class="box">
+          <h3 class="title">Covid-19 Hospitals</h3>
+          <p>COVID-19 hospitals are healthcare facilities specifically designated or adapted to handle the diagnosis, treatment, and management of patients with COVID-19, a viral infection caused by the SARS-CoV-2 virus.</p>
+          </div>
+        </li>
+        <li>
+          <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+          <div class="box">
+          <h3 class="title">Freelance Nursing</h3>
+          <p>Freelance nurses have the flexibility to choose their own working hours, locations, and areas of specialty, making it an attractive option for many. </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="testimonials">
+      <h1 class="h1">Our Patients</h1>
+      <div class="caro">
+        <div class="card">
+          <div class="name">
+            <img src="./Assets/Image/img6.jpeg" alt="img6" width="100px">
+            <h2>Rosey</h2>
+            <span>Recovered</span>
+          </div>
+          <h3>Best Health Care</h3>
+          <p>"Dr. Lee was very attentive and listened to my concerns. He took the time to explain my diagnosis and treatment options clearly, which I really appreciated."</p>
+          <h3>★★★✩✩</h3> 
+        </div>
+        <div class="card">
+          <div class="name">
+            <img src="./Assets/Image/img7.jpg" alt="img7" width="100px">
+            <h2>Mary</h2>
+            <span>Patient</span>
+          </div>
+          <h3>Great Services</h3>
+          <p>"Great services, highly professional. The doctor listened attentively and provided the best care."</p>
+          <h3>★★★★✩</h3>
+        </div>
+        <div class="card">
+          <div class="name">
+            <img src="./Assets/Image/img8.webp" alt="img8" width="100px">
+            <h2>Laura</h2>
+            <span>New Patient</span>
+          </div>
+          <h3>Doctor Cares Everyone!</h3>
+          <p>"The consultation was thorough, and the doctor was very compassionate. Highly recommend!"</p>
+          <h3>★★★✩✩</h3>
+        </div>
+        <div class="card">
+          <div class="name">
+            <img src="./Assets/Image/img9.jpeg" alt="img9" width="100px">
+            <h2>Riya</h2>
+            <span>Recovered</span>
+          </div>
+          <h3>Best Advice</h3>
+          <p>"I felt completely at ease discussing my health concerns, and he took the time to explain everything in detail. He didn’t rush through the appointment and answered all questions."</p>
+          <h3>★★★★✩</h3>
+        </div>
+      </div>
+      <button class="prev1">❮</button>
+      <button class="next1">❯</button>
+    </section>
+    <section id="booking">
+      <div class="formhead">
+          <h1 class="h1">Book an appointment</h1>
+      </div>
+      <form id="form">
+          <div id="form1">
+              <div class="detailform">
+                  <input class="input" type="text" placeholder="Full name" id="usernames"> <br>
+                  <div class="error-message" id="error-usernames"></div>
+                  
+                  <input class="input" type="tel" placeholder="Phone no" id="userphoneno"> <br>
+                  <div class="error-message" id="error-userphoneno"></div>
+              </div>
+              <div class="detailform">  
+                  <input class="input" type="email" placeholder="Email address" id="useremail"> <br>
+                  <div class="error-message" id="error-useremail"></div>
+                  
+                  <input class="input" type="date" id="userdate"> <br>
+                  <div class="error-message" id="error-userdate"></div>
+              </div> 
+          </div> 
+          <div class="detailtext"> 
+              <textarea class="input1" id="usermessage" placeholder="Additional Message"></textarea> <br>   
+              <div class="detailtext1">      
+                  <button id="btn" type="submit">Book Now</button>
+                  <!-- Modal (Hidden by default) -->
+          <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+              <h2>Confirm Your Booking</h2>
+              <p>Are you sure you want to submit the form?</p>
+              <button class="hidebtn" id="confirmBtn">Yes, Submit</button>
+              <button class="hidebtn" onclick="closeModal()">Cancel</button>
+             </div>
+            </div>
+            </div> 
+          </div> 
+      </form>
+    </section>
+    <section id="contact">
+      <div class="contact-data">
+        <div class="final hour">
+          <h1>Opening Hours</h1>
+          <h2>Sunday : Closed</h2>
+          <h2>Monday, Tuesday - Firday<span>8:00 AM - 3:30 PM</span></h2>
+          <h2>Saturday<span class="span1">10:30 AM - 5:30 PM</span></h2>
+        </div>
+        <div class="final clinic">
+          <h1>Our Clinic</h1>
+          <h2>abc@123.com</h2>
+          <address class="address">123 Digital Art Street,<br>San Diego,<br>CA 92123</address>
+
+        </div>
+        <div class="final social">
+          <h1>Socials</h1>
+          <a class="logo fa fa-facebook" href="#"></a>
+          <a class="logo fa fa-twitter" href="#"></a>
+          <a class="logo fa fa-instagram" href="#"></a>
+          <a class="logo fa fa-youtube" href="#"></a>
+        </div>
+      </div>
+    </section>
+  
+    
+   
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./Assets/Js/page.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
